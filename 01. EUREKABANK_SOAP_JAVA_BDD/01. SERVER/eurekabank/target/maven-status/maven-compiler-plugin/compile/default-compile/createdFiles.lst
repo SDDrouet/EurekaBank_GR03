@@ -1,0 +1,4 @@
+ec\edu\eurekabank\db\AccesoDB.class
+ec\edu\eurekabank\controller\WSEureka.class
+ec\edu\eurekabank\service\EurekaService.class
+ec\edu\eurekabank\model\Movimiento.class
