@@ -169,3 +169,12 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/java,dotenv,node
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLICON/eurekabank_consola/target/
+/01. EUREKABANK_SOAP_JAVA_BDD/01. SERVER/eurekabank_consola/nbproject/private/
+/01. EUREKABANK_SOAP_JAVA_BDD/01. SERVER/eurekabank_consola/build/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLIESC/eurekabank_escritorio/nbproject/private/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLICON/eurekabank_consola/build/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLICON/eurekabank_consola/nbproject/private/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLIESC/eurekabank_consola/build/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLIESC/eurekabank_consola/nbproject/private/
+/01. EUREKABANK_SOAP_JAVA_BDD/02. CLIESC/eurekabank_escritorio/build/

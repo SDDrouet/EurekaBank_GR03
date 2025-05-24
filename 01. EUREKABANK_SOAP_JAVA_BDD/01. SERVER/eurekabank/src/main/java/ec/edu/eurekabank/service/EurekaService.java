@@ -15,15 +15,16 @@ public class EurekaService {
         Connection cn = null;
         List<Movimiento> lista = new ArrayList<>();
         String sql = "SELECT \n"
-                + " m.chr_cuencodigo cuenta, \n"
-                + " m.int_movinumero nromov, \n"
-                + " m.dtt_movifecha fecha, \n"
-                + " t.vch_tipodescripcion tipo, \n"
-                + " t.vch_tipoaccion accion, \n"
-                + " m.dec_moviimporte importe \n"
-                + "FROM tipomovimiento t INNER JOIN movimiento m \n"
-                + "ON t.chr_tipocodigo = m.chr_tipocodigo \n"
-                + "WHERE m.chr_cuencodigo = ?";
+            + " m.chr_cuencodigo cuenta, \n"
+            + " m.int_movinumero nromov, \n"
+            + " m.dtt_movifecha fecha, \n"
+            + " t.vch_tipodescripcion tipo, \n"
+            + " t.vch_tipoaccion accion, \n"
+            + " m.dec_moviimporte importe \n"
+            + "FROM tipomovimiento t INNER JOIN movimiento m \n"
+            + "ON t.chr_tipocodigo = m.chr_tipocodigo \n"
+            + "WHERE m.chr_cuencodigo = ? \n"
+            + "ORDER BY m.int_movinumero DESC";
 
         try {
             cn = AccesoDB.getConnection();
